@@ -9,7 +9,7 @@ class Home extends Component {
                     <p className="lead">
                         This <i>ready-and-simple-to-use</i> boilerplate includes react, react-router, sass, bootstrap, font awesome and a few common dev packages.    
                     </p>
-                    <p><a className="btn btn-lg btn-primary btn-github" href="#" role="button"><i className="fa fa-github fa-2x"></i> Go to GitHub Repository</a></p>
+                    <p><a className="btn btn-lg btn-primary btn-github" href="https://github.com/YoannBureau/reactr" target="_blank" role="button"><i className="fa fa-github fa-2x"></i> Go to GitHub Repository</a></p>
                 </div>
                 <div className="row">
                     <div className="col-lg-6">
