@@ -1,6 +1,8 @@
 # Reactr - A React boilerplate as simple as 1-2-3.
 This _ready-and-simple-to-use_ boilerplate includes react, react-router, sass, bootstrap, font awesome and a few common dev packages.
 
+![Reactr Preview](http://nsa38.casimages.com/img/2016/10/31/161031040930472479.gif "Reactr Preview")
+
 # Clone it
 Clone this repository, run `npm install` then start coding.
 
