@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 
+import Style from './users.scss';
+
 class Users extends Component {
     render(){
         let data = [1, 2, 3, 4, 5, 6, 8, 9, 10];

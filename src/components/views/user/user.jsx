@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { browserHistory, Link } from 'react-router';
 
+import Style from './user.scss';
+
 class User extends Component {
     render(){
         let id = this.props.params.id
