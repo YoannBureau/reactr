@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router';
 
+import Style from './layout.scss';
+
 class Layout extends Component {
     render(){
         return(
