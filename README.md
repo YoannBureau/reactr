@@ -11,9 +11,9 @@ Clone this repository, run `npm install` then start coding.
 ## Want to add a new view?
 As simple as _1-2-3_:
 
-1. Create your view in `/src/views` directory
-2. Add you route in `/src/views/application.jsx`
-3. Add a link in the navbar in `/src/views/common/layout.jsx`
+1. Create your view in `/src/components/views` directory
+2. Add you route in `/src/components/application.jsx`
+3. Add a link in the navbar in `/src/components/views/shared/layout.jsx`
 
 ## Include third party easily
 Import third party css or js files in `src/main.js`, like we already did for Bootstrap and Font Awesome. Yep, that's all.
