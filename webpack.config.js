@@ -13,7 +13,7 @@ module.exports = {
             {
                 test : /\.jsx?/,
                 exclude: /node_modules/,
-                loader: 'babel'
+                loader: 'babel-loader'
             },
             { 
                 test: /\.css$/, 
@@ -21,11 +21,11 @@ module.exports = {
             },
             {
                 test: /\.scss$/,
-                loaders: ["style", "css", "sass"]
+                loaders: ["style-loader", "css-loader", "sass-loader"]
             },
             {
                 test: /\.(eot|svg|ttf|woff(2)?)(\?v=\d+\.\d+\.\d+)?/,
-                loader: 'url'
+                loader: 'url-loader'
             }
         ]
     }
