@@ -1,5 +1,5 @@
 import React from 'react';
-import {Router, Route, IndexRoute, hashHistory} from 'react-router';
+import {Router, Route, IndexRoute, browserHistory} from 'react-router';
 
 import Layout from './views/shared/layout.jsx'
 import Home from './views/common/home.jsx'
@@ -10,7 +10,7 @@ import User from './views/user/user.jsx'
 class Application extends React.Component {
     render(){
         return (
-            <Router history={hashHistory}>
+            <Router history={browserHistory}>
                 <Route component={Layout}>
                     <Route path="/" component={Home} />
                     <Route path="/users" component={Users} />
